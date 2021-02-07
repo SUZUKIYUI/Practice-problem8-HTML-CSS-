@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-contents,
+.box-contents {
+  width: 960px;
+}
+.text-contents {
+  margin: 50px auto;
+}
+.text-box:nth-child(odd) {
+  background-color: rgb(190, 185, 185);
+}
+.text-box p {
+  padding: 20px;
+}
+.box-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+}
+.box {
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: yellow;
+}
+.orange {
+  background-color: orange;
+}
+.box3,
+.box6,
+.box9 {
+  margin-right: 0;
+}
+.box7,
+.box8,
+.box9 {
+  margin-bottom: 0;
+}
